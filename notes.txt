@@ -1,0 +1,8 @@
+when this error is thrown
+npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies 
+ follow these steps tp make it run
+ open windows powershell 
+ run as administartor
+ run command Set-ExecutionPolicy RemoteSigned
+ Get-ExecutionPolicy
+to see the policy executed to make npm run 
